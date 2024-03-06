@@ -5,6 +5,25 @@ body{
     min-width: 1078px;
 }
 
+footer{
+    background-color: #4162c5;
+    color: white;
+    font-size: 0.8em;
+}
+
+footer article{
+    display: inline-block;
+    width: 33%;
+}
+
+footer article input{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    height: 30px;
+}
+
 header input{
     float: right;
     margin-right: -200px;
@@ -61,6 +80,7 @@ header nav ul li:hover{
 }
 
 #secc01art02{
+    margin-left: 50px;
     width: 30%;
 }
 
@@ -72,6 +92,32 @@ header nav ul li:hover{
     color: #FF0099;
     content: "• ";
 }
+
+#secc03art04{
+    padding-top: 60px;
+}
+
+#segundaseccion article{
+    /* border: 1px solid red; */
+    padding-right: 140px;
+    text-align: right;
+}
+
+#terceraseccion article{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+}
+
+#terceraseccion article img{
+    /* 
+        Alineacion vertical del texto
+        que la rodea
+    */
+    vertical-align: middle;
+}
+
+
 
 .colorazul{
     color: #4267B3;
@@ -89,7 +135,9 @@ header nav ul li:hover{
     font-size: 3.5em;
 }
 
-
+.letramediana{
+    font-size: 2em;
+}
 .nito{
     font-weight: bold;
 }
