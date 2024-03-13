@@ -16,12 +16,29 @@ body{
     max-width: 1024px;
 }
 
+footer article{
+    display: inline-block;
+    margin-top: 20px;
+    vertical-align: top;
+    padding: 10px;
+    width: 31.1%;
+}
+
+footer img{
+    width: 300px;
+}
+
+header ul{
+    margin-left: -40px;
+    padding-right: 15px;
+}
+
 header ul li{
     display: inline-block;
-    margin-left: -10px;
+    margin-left: -4px;
     padding: 8px 14px;
     text-align: center;
-    width: 17%;
+    width: 17.3%;
 }
 header ul li:nth-child(2){
     background-color: var(--color-verde)
@@ -39,12 +56,17 @@ header ul li:nth-child(5){
     background-color: var(--color-gris)
 }
 
+section{
+    padding-right: 15px;
+}
+
 section article{
     display: inline-block;
     height: 280px;
     padding: 18px 8px;
+    margin-right: -4px;
     vertical-align: top;
-    width: 17.9%;
+    width: 18.45%;
 }
 section article ul{
     list-style: none;
@@ -61,6 +83,12 @@ section article:nth-child(4){
 section article:nth-child(5){
     background-color: var(--color-gris);
 }
+
+hr{
+    border-style: dashed;
+    color: var(--color-linea);
+}
+
 section,footer{
     background-color: var(--fondo-negro);
 }
@@ -73,13 +101,16 @@ section img{
 }
 
 .letra-blanca{
-    color: var(--color-blanco);
-}
+    color: var(--color-blanco);}
+
 
 .letra-gris{
     color: var(--color-linea);
 }
-
+.read-more{
+    /* border: 1px solid red; */
+    margin-left: 220px;
+}
 .tam-menu-lateral{
     font-size: 1.1em;
 }
