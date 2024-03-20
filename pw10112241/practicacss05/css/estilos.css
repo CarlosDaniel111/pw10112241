@@ -1,0 +1,57 @@
+body{
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+aside{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+
+header{
+    background-color: #245d92;
+    margin-bottom: -16px;
+    text-align: center;
+}
+
+nav{
+    background-color: #efefef;
+    padding-right: 20px;
+}
+
+nav ul{
+    padding-bottom: 20px;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li img{
+    width: 70%;
+}
+
+#article_aside1{
+    background-color: #1e4972;
+}
+
+#article_aside1 ul{
+    color: white;
+    padding-inline-start: 0;
+}
+
+#article_aside1 ul li{
+    list-style: none;
+}
+
+#aside_titulo1{
+    background-color: #225d94;
+}
+
+#seccion1{
+    display: inline-block;
+    width: 74%;
+}
